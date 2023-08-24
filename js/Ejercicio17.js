@@ -14,5 +14,5 @@ function mostrarVectores() {
 }
 
 function borrarUltimo(){
-    console.log(array.slice(0,array.length-1));
+    console.log(array.slice(0,array.length-2));
 }

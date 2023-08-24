@@ -5,7 +5,7 @@ let vector1 = new Array();
 let vector2 = new Array();
 
 function llenarVectores() {
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 4; index++) {
         vector1[index] = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
         vector2[index] = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
     }
